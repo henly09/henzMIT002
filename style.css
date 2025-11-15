@@ -1,0 +1,101 @@
+body {
+  height: 100vh;
+  color: #000;
+  background-image: url("Images/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-custom {
+  width: 10rem;
+}
+
+.container-custom {
+  background-color: #25aae2;
+}
+
+.button-custom {
+  text-decoration: none;
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #282262;
+  box-shadow: 0 9px #999;
+  color: #fff;
+}
+
+.button-custom:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#scan-field {
+  background-color: none;
+  border: none;
+  text-align: center;
+}
+
+#manual-field {
+  background-color: none;
+  border: none;
+  text-align: center;
+}
+
+#guest-field {
+  background-color: none;
+  border: none;
+  text-align: center;
+}
+
+#scan-submit {
+  display: none;
+}
+
+#scan-field {
+  border: 2px solid #e8e8e8;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #212121;
+  font-size: small;
+  font-weight: bold;
+}
+
+#scan-field:focus {
+  outline-color: white;
+  background-color: #212121;
+  color: #e8e8e8;
+  box-shadow: 5px 5px #888888;
+}
+
+#manual-field {
+  border: 2px solid #e8e8e8;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #212121;
+  font-size: small;
+  font-weight: bold;
+}
+
+#manual-field:focus {
+  outline-color: white;
+  background-color: #212121;
+  color: #e8e8e8;
+  box-shadow: 5px 5px #888888;
+}
+
+#guest-field {
+  border: 2px solid #e8e8e8;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #212121;
+  font-size: small;
+  font-weight: bold;
+}
+
+#guest-field:focus {
+  outline-color: white;
+  background-color: #212121;
+  color: #e8e8e8;
+  box-shadow: 5px 5px #888888;
+}

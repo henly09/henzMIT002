@@ -1,0 +1,9 @@
+table.dataTable td  {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+table.dataTable td {
+  max-width: 100px;
+}

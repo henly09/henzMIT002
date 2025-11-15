@@ -1,0 +1,11 @@
+<?php
+include_once('../../../conn.php');
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $stmt = $conn->prepare("DELETE FROM `admin` WHERE `id` = :id");
+  $stmt->bindParam(":id", $_POST["id"]);
+  $stmt->execute();
+
+  echo json_encode([
+    "success" => true
+  ]);
+}
